@@ -2,6 +2,7 @@
 Solutions to assignment 3
 """
 
+
 """
 1.Write a Python program to reverse the string "Programming". Print the reversed string.
 Hint: Use string slicing or a loop.
