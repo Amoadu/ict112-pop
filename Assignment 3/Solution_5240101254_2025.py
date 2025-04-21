@@ -23,7 +23,14 @@ print(f"{initials}.")
 3.Write a Python program to check if a given string is a palindrome. A palindrome reads the same forwards
 and backward (e.g., "radar", "level"). Hint: Compare the string with its reverse.
 """
+def is_palindrome(s):
+    return s == s[::-1]
 
+string = input("Enter a string: ")
+if is_palindrome(string):
+    print("It's a palindrome!")
+else:
+    print("Not a palindrome.")
 
 
 """
